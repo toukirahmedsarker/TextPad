@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Naditor">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/Naditor.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

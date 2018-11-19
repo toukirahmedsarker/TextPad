@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="RichText">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/lib/RichText.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

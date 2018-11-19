@@ -1,0 +1,213 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 22, 2016, 1:30:38 PM
+    Author     : sayeed
+*/
+
+#open{
+    -fx-background-image: url("open.png");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+    -fx-background-size: 28px;
+    -fx-width: 60px;
+    -fx-height: 60px;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+#open:hover{
+    -fx-background-color: white;
+}
+
+#new{
+    -fx-background-image: url("new.png");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+    -fx-background-size: 28px;
+    -fx-width: 60px;
+    -fx-height: 60px;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+#new:hover{
+    -fx-background-color: white;
+    -fx-cursor: hand;
+}
+#save{
+    -fx-background-image: url("Save.png");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+    -fx-background-size: 28px;
+    -fx-width: 60px;
+    -fx-height: 60px;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-margin-right: 20px;
+}
+
+#save:hover{
+    -fx-background-color: white;
+    -fx-cursor: hand;
+}
+#save_all{
+    -fx-background-image: url("SaveAll.png");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+    -fx-background-size: 28px;
+    -fx-width: 60px;
+    -fx-height: 60px;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-margin-right: 20px;
+}
+
+#save_all:hover{
+    -fx-background-color: white;
+    -fx-cursor: hand;
+}
+#cut{
+    -fx-background-image: url("Cut.png");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+    -fx-background-size: 28px;
+    -fx-width: 60px;
+    -fx-height: 60px;
+    -fx-background-color: transparent;
+     -fx-cursor: hand;
+}
+
+#cut:hover{
+    -fx-background-color: white;
+}
+#copy{
+    -fx-background-image: url("Copy.png");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+    -fx-background-size: 28px;
+    -fx-width: 60px;
+    -fx-height: 60px;
+    -fx-background-color: transparent;
+     -fx-cursor: hand;
+}
+
+#copy:hover{
+    -fx-background-color: white;
+}
+#paste{
+    -fx-background-image: url("Paste.png");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+    -fx-background-size: 28px;
+    -fx-width: 60px;
+    -fx-height: 60px;
+    -fx-background-color: transparent;
+     -fx-cursor: hand;
+}
+
+#paste:hover{
+    -fx-background-color: white;
+}
+#delete{
+    -fx-background-image: url("Delete.png");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+    -fx-background-size: 28px;
+    -fx-width: 60px;
+    -fx-height: 60px;
+    -fx-background-color: transparent;
+     -fx-cursor: hand;
+}
+
+#delete:hover{
+    -fx-background-color: white;
+}
+#undo{
+    -fx-background-image: url("Undo.png");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+    -fx-background-size: 28px;
+    -fx-width: 60px;
+    -fx-height: 60px;
+    -fx-background-color: transparent;
+     -fx-cursor: hand;
+}
+
+#undo:hover{
+    -fx-background-color: white;
+}
+#redo{
+    -fx-background-image: url("Redo.png");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+    -fx-background-size: 28px;
+    -fx-width: 60px;
+    -fx-height: 60px;
+    -fx-background-color: transparent;
+     -fx-cursor: hand;
+}
+
+#redo:hover{
+    -fx-background-color: white;
+}
+#assemble{
+    -fx-background-image: url("assemble.png");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+    -fx-background-size: 28px;
+    -fx-width: 60px;
+    -fx-height: 60px;
+    -fx-background-color: transparent;
+     -fx-cursor: hand;
+}
+
+#assemble:hover{
+    -fx-background-color: white;
+}
+#run{
+    -fx-background-image: url("Run.png");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+    -fx-background-size: 28px;
+    -fx-width: 60px;
+    -fx-height: 60px;
+    -fx-background-color: transparent;
+     -fx-cursor: hand;
+}
+
+#run:hover{
+    -fx-background-color: white;
+}
+
+#full_screen{
+    -fx-background-image: url("full_screen.png");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+    -fx-background-size: 28px;
+    -fx-width: 60px;
+    -fx-height: 60px;
+    -fx-background-color: transparent;
+     -fx-cursor: hand;
+}
+
+#full_screen:hover{
+    -fx-background-color: white;
+}
+
+#full_screen:selected{
+    -fx-background-image: url("full_screen_off.png");
+    
+}
+#txtFind{
+    -fx-background-image: url("search.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left center;
+    -fx-background-size: 20px;
+    
+    -fx-font-size:16px;
+    -fx-padding: 5px 5px 5px 25px; 
+}
